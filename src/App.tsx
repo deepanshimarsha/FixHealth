@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { useState } from 'react'
+import './App.css'
+import LandingPage from './pages/LandingPage'
+import { Routes, Route } from 'react-router-dom'
+import BookingPage from './pages/BookingPage'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App: React.FC = () => {
+    const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
+
+    return (
+        <div className={`app ${isDarkMode ? 'dark-mode' : ''}`}>
+            <Routes>
+                <Route
+                    path="/:cityName"
+                    element={
+                        <BookingPage
+                            isDarkMode={isDarkMode}
+                            setIsDarkMode={setIsDarkMode}
+                        />
+                    }
+                />
+                <Route
+                    path="/"
+                    element={
+                        <LandingPage
+                            isDarkMode={isDarkMode}
+                            setIsDarkMode={setIsDarkMode}
+                        />
+                    }
+                />
+            </Routes>
+        </div>
+    )
 }
 
-export default App;
+export default App

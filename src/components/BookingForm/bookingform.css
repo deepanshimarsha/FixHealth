@@ -1,0 +1,248 @@
+.booking-form {
+    width: 400px;
+    height: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+   
+}
+
+.booking-form-main .heading{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.booking-form form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-input {
+    box-sizing: border-box;
+    height: 39px;
+    width: 426px;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 91%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 80%;
+}
+
+.form-input-textarea{
+    box-sizing: border-box;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 250px;
+    width: 100%;
+
+}
+
+.PhoneInput{
+    width: 90%;
+}
+
+.PhoneInput input{
+    box-sizing: border-box;
+    height: 39px;
+    width: 426px;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.slidecontainer{
+    width: 80%;
+    margin-top: 30px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #ea4c89;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+
+.detail-pill{
+    height: 40px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(86, 99, 123);
+    border-radius: 5px;
+    padding: 12px;
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    padding-right: 20px;
+    
+    cursor: pointer;
+    
+}
+.detail-pill:hover{
+    background-color: rgba(202, 199, 199, 0.856);
+}
+
+.detail-pill .left{
+    display: flex;
+    gap: 5px;
+}
+
+.detail-pill .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.available-doc-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.doctors-list{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+    margin-bottom: 20px;
+    height: 120px;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+    padding-top: 65px;
+    padding-bottom: 10px;
+    
+}
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 150px;
+  touch-action: manipulation;
+}
+.booking-form-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.info{
+    font-size: smaller;
+}
+.booking-form-main .subheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.checkbox-label{
+    font-size: small;
+}
+
+@media (min-width: 750px) and (max-width: 1260px){}
+@media (min-width: 200px) and (max-width: 749px){
+    .booking-form{
+        width: 300px;
+        padding-top: 10px;
+    }
+    .input-group{
+        width: 90%;
+        
+    }
+    .doctors-list{
+         width: 94%; 
+         padding-top: 20px;  
+    }
+    .booking-form-main .heading{
+        font-size: 30px;
+    }
+    .booking-form-main .subheading{
+        font-size: small;
+    }
+    .checkbox-label{
+        font-size: x-small;
+    }
+    .detail-pill{
+        width: 85%;
+    }
+}

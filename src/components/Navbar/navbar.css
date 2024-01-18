@@ -1,0 +1,20 @@
+.navbar-section{
+    height: 60px;
+}
+
+.container{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: #EA4C89;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 50px;
+    
+}
+
+.toggleMode{
+    padding-right: 50px;
+}
