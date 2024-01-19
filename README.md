@@ -1,3 +1,7 @@
+# Demo Video
+
+### video link - https://www.loom.com/share/6eddd762326a414fa68a7289acf7ef04?sid=bd839882-f133-4474-ba08-35144e186bcb\
+
 # Available Scripts
 
 In the project directory, you can run:
@@ -6,6 +10,9 @@ In the project directory, you can run:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Connect with the backend
+Hosted on replit - https://replit.com/@DeepanshiSharm2/FixHealth
+### run the server
 
 
 # Features
