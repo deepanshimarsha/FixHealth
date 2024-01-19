@@ -1,6 +1,6 @@
 # Demo Video
 
-### video link - https://www.loom.com/share/6eddd762326a414fa68a7289acf7ef04?sid=bd839882-f133-4474-ba08-35144e186bcb\
+### video link - https://www.loom.com/share/a529f40e0d974c5ea87bbd125060f7c3?sid=52a4bd12-3467-4510-a814-10ffb2a4f06a
 
 # Available Scripts
 
